@@ -1,0 +1,15 @@
+[package]
+name = "todolist-app"
+version = "1.0.0"
+authors = []
+
+[addresses]
+todolist_application = "0x43b049c72958e5b9521c386d75d5decfc3599fe29e01485fee92af0f0df55c82"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
